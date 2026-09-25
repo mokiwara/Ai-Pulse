@@ -5,4 +5,4 @@
 *.user
 **/TestResults/
 publish/
-release/*.exe
+release/
