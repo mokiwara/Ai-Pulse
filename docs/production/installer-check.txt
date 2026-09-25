@@ -1,0 +1,16 @@
+PASS install.log
+PASS installed executable exists
+PASS registered in Windows Apps
+PASS installation preserves accounts and settings
+PASS correct x64 payload selected
+PASS installed app launches and responds
+PASS second launch returns successfully
+PASS only one app instance remains
+PASS upgrade.log
+PASS upgrade gracefully exits running app
+PASS upgrade preserves accounts and settings
+PASS uninstaller exits successfully
+PASS uninstaller removes app executable
+PASS uninstaller removes app registration
+PASS uninstaller removes owned startup entry
+PASS uninstaller preserves accounts and settings

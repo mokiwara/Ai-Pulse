@@ -1,0 +1,5 @@
+{
+  "normalized_capture_without_raw_session_data": true,
+  "invalid_and_oversized_input_preserves_last_reading": true,
+  "idle_stdin_exit_seconds": 5.07
+}

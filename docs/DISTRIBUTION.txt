@@ -1,0 +1,61 @@
+AI Pulse 1.0.5
+Personal AI usage monitor for OpenAI / Codex and Claude Code
+
+INSTALL
+Run AI-Pulse-1.0.5-Setup.exe. It installs for your Windows user without
+administrator access, creates a Start menu shortcut and registers an uninstaller.
+The installer chooses x64 or ARM64 automatically. Windows 10 1809 or newer is
+required; use a Windows version still receiving security updates.
+.NET is included. Internet access and separately installed, authenticated provider
+CLIs are needed to fetch usage. AI Pulse does not include those CLIs or logins.
+macOS, Linux, Android and iOS are not supported by this Windows application.
+
+PORTABLE
+Choose the portable executable matching your Windows architecture. Keep it in a
+stable folder if you enable Start with Windows or terminal capture. Portable means
+no installation is required; settings are still saved in your Windows user profile.
+
+USE
+Double-tap Alt to show or hide the notch. Click the notch for account details.
+Click the circular arrow on the notch to refresh all accounts without opening it.
+Closing the app window leaves it running in the tray. Choose Exit to stop it.
+Auto-hide defaults to 5 minutes and can be changed in Settings.
+
+DATA AND PRIVACY
+Each recipient connects their own existing provider contexts. No accounts, tokens,
+usage database, or developer settings are included in the release files.
+AI Pulse stores context paths, names, hashed account identifiers, normalized usage,
+settings and short diagnostic error codes under %LOCALAPPDATA%\AIUsageHub.
+There is no AI Pulse server, telemetry, listening network service or auto-updater.
+Provider CLIs communicate with their respective providers to obtain readings.
+Double-Alt uses a Windows keyboard hook. Key state is used only to recognize the
+gesture; typed text is never recorded, saved or transmitted.
+
+PROVIDER CONFIGURATION
+Terminal usage capture is optional. Accounts > Enable terminal capture explicitly
+adds a capture command to the selected Claude settings.json if no custom command
+would be overwritten. Normal discovery and refresh do not enable it automatically.
+Removing a context removes only a directly owned capture command. Composed custom
+commands remain yours to maintain. The provider CLI owns authentication.
+
+UPDATES AND UNINSTALL
+Exit AI Pulse or let Setup request a graceful exit. Install the newer version over
+the existing installation. Existing local accounts and preferences are preserved.
+Use Windows Settings > Apps > AI Pulse to uninstall. Uninstall removes the app,
+shortcuts and the startup/capture commands pointing at this installed executable.
+It preserves local usage data and all provider logins. To erase AI Pulse's saved
+data, exit the app and delete %LOCALAPPDATA%\AIUsageHub yourself.
+Custom composed terminal commands are not modified during uninstall.
+
+RELEASE LIMITS
+This release is unsigned. Windows may show an unknown-publisher or SmartScreen
+warning. Do not disable Windows security features. Obtain the files from someone
+you trust and compare their SHA-256 hashes with the separately supplied manifest.
+Hashes verify file integrity, not publisher identity. An authenticated code-signing
+certificate is required for a publisher-signed release.
+Testing reduces risk; it cannot certify that software is free of every defect or
+vulnerability. See the accompanying production review for test scope and limits.
+
+SHARING
+Share only the release installer or portable executables and their accompanying
+notices. Do not share your AIUsageHub data folder or provider context directories.
