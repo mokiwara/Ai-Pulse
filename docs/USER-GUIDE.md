@@ -2,7 +2,13 @@
 
 AI Pulse is a Windows tray app for watching usage reported by your existing Codex and Claude Code accounts. The overview lists every monitored context; the small notch shows a selected account for each provider. Percentages mean **usage remaining**, not usage spent. A `5h/weekly%` label gives the five-hour and weekly remaining percentages in that order.
 
-The [overview screenshot](screenshots/overview-1.0.5.png), [Accounts screenshot](screenshots/accounts-1.0.5.png), and [expanded notch screenshot](screenshots/notch-1.0.5.png) were captured from version 1.0.5 with sample data.
+The notch, captured from version 1.0.5 with sample data:
+
+![AI Pulse collapsed notch showing Codex and Claude remaining usage](screenshots/notch-collapsed-1.0.5.png)
+
+![AI Pulse expanded notch showing all sample accounts](screenshots/notch-1.0.5.png)
+
+See also the [overview screenshot](screenshots/overview-1.0.5.png) and [Accounts screenshot](screenshots/accounts-1.0.5.png).
 
 ## Requirements and installation
 

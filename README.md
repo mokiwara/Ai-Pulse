@@ -2,9 +2,19 @@
 
 AI Pulse is a Windows tray app that shows how much of your **Codex** and **Claude Code** subscription usage remains. It watches multiple existing accounts, shows their five-hour and weekly windows in a small notch, refreshes readings, and can alert you when a limit is close.
 
+## The notch
+
+![AI Pulse collapsed notch showing Codex and Claude remaining usage](docs/screenshots/notch-collapsed-1.0.5.png)
+
+The collapsed notch shows the selected Codex and Claude accounts at a glance. Expand it to see every account and its usage windows:
+
+![AI Pulse expanded notch showing all sample accounts](docs/screenshots/notch-1.0.5.png)
+
+## Main window
+
 ![AI Pulse overview with sample accounts](docs/screenshots/overview-1.0.5.png)
 
-Screenshots use sample accounts and usage values. See the [expanded notch](docs/screenshots/notch-1.0.5.png) and [Accounts page](docs/screenshots/accounts-1.0.5.png).
+These screenshots use sample accounts and usage values. See the [Accounts page](docs/screenshots/accounts-1.0.5.png).
 
 ## Download
 
